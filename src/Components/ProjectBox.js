@@ -5,21 +5,16 @@ import {CgFileDocument} from "react-icons/cg";
 
 const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
-    // TindogDesc : "This website is a landing page of Tinder but for dogs. It is a responsive website which was made to understand Bootstrap. I also learned how to host my project on Github and then how to deploy that project using Github pages.",
-    // TindogGithub : "https://github.com/DevanshSahni/tindog",
-    // TindogWebsite : "https://devanshsahni.github.io/tindog/",
-
-    // RogFreeDesc : "A website that shows you over seven specialized yoga postures for specific diseases or health problems. This was a group project made in a team of two for a 36-hour-long online hackathon named Hackodisha 2.0.",
-    // RogFreeGithub : "https://github.com/DevanshSahni/Rog-Free",
-    // RogFreeWebsite : "https://devanshsahni.github.io/Rog-Free/",
-
-    // NewsletterDesc:"A newsletter signup site made using Mailchimp API where the signups can be monitored from the MailChimp account. This project was made to understand API integration, environment variables and vercel deployment.",
-    // NewsletterGithub:"",
-    // NewsletterWebsite:"https://newsletter-signup-teal.vercel.app/",
+    CatTinderDesc : "This website is a landing page of Tinder but for cats. It is a responsive website which was made to understand Bootstrap. I also learned how to host my project on Github and then how to deploy that project using Github pages.",
+    CatTinderGithub : "https://github.com/learn-academy-2023-india/cat-tinder-frontend-frazzled-felines",
     
-    // WigglesDesc:"An innovative pet management web app enabling pet parents to create unique pet IDs, securely store and share vaccination records, and generate QR codes for pet profiles, enhancing safety.",
-    // WigglesGithub:"https://github.com/DevanshSahni/Wiggles",
-    // WigglesWebsite:"https://wiggles.vercel.app/",
+
+    ApartmentAppDesc : "A website that shows you list of available apartment for rent. This was a group project made in a team of four with sign up and in function along with mock data.",
+    ApartmentAppGithub : "https://github.com/learn-academy-2023-india/apartment-app-frontend-full-stack-realtors",
+    
+    KanyeLovesKanyeDesc:"A Kanye Fan page where you can experience variety of exciting features. This project was made to understand API integration, environment variables and vercel deployment.",
+    KanyeLovesKanyeGithub:"https://github.com/kanye-loves-kanye",
+   
   }
 
   let show ='';
@@ -29,7 +24,7 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     
   return (
     <div className='projectBox'> 
-        {/* <img className='projectPhoto' src={projectPhoto} alt="Project display" /> 
+        <img className='projectPhoto' src={projectPhoto} alt="Project display" /> 
         <div>
             <br />
             <h3>{projectName}</h3>
@@ -41,10 +36,8 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
               <button className='projectbtn'><FaGithub/> Github</button>
             </a>
 
-            <a href={desc[projectName + 'Website']} target='_blank'>
-              <button className='projectbtn'><CgFileDocument/> Demo</button>
-            </a>
-        </div> */}
+            
+        </div>
     </div>
   )
 }
