@@ -47,11 +47,12 @@ function App() {
       <MoveToTop/>
 
       <Routes>
-        <Route path="/" element={<Home/>} />
+        <Route path="/portfolio" element={<Home/>} />
         <Route path="/About" element={<About/>}/>
         <Route path="/Project" element={<Project/>}/>
         <Route path="/Resume" element={<Resume/>}/>
         <Route path="/ContactMe" element={<ContactMe/>}/>
+
       </Routes>
       
       <Footer/>
