@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.745da0eb.css",
+    "main.js": "/portfolio/static/js/main.62a00c35.js",
+    "static/media/apartment1.png": "/portfolio/static/media/apartment1.ee7f9d8084476e1d9e3c.png",
+    "static/media/klk.png": "/portfolio/static/media/klk.a01ce224f0744a458f20.png",
+    "static/media/cattinder.png": "/portfolio/static/media/cattinder.9944c9f2b92e56d45088.png",
+    "static/media/Avatar.png": "/portfolio/static/media/Avatar.fa312ccf8f85946c64d0.png",
+    "static/media/Resume-Brandon Kim.pdf": "/portfolio/static/media/Resume-Brandon Kim.8eb819a1f8ff41f4e65f.pdf",
+    "index.html": "/portfolio/index.html",
+    "main.745da0eb.css.map": "/portfolio/static/css/main.745da0eb.css.map",
+    "main.62a00c35.js.map": "/portfolio/static/js/main.62a00c35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.745da0eb.css",
+    "static/js/main.62a00c35.js"
+  ]
+}
